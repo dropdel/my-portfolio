@@ -1,12 +1,10 @@
 import * as React from "react"
-import { Link } from 'gatsby'
-import Header from '../components/header'
-import NavList from "../components/navlist"
+import Layout from "../components/layout"
 // markup
 const IndexPage = () => (
   <main>
-    <Header pageTitle="Home">
-    </Header>
+    <Layout pageTitle="Home">
+    </Layout>
     <h2>
       Welcome!
     </h2>

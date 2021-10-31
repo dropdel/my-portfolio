@@ -1,12 +1,11 @@
 import * as React from 'react'
 
-import { Link } from 'gatsby'
-import Header from '../components/header'
+import Layout from '../components/layout'
 const AboutPage = () => {
     return (
         <main>
-            <Header pageTitle="About Me">
-            </Header>
+            <Layout pageTitle="About Me">
+            </Layout>
             <p>Hello, I'm Derrick, a software developer.
                 I specialize in planning, designing and developing
                 software products. Currently, I'm intensely focused 
