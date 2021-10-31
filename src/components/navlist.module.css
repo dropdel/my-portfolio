@@ -1,0 +1,13 @@
+.list-container {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: thistle;
+    padding: 1.2rem;
+}
+.list-item {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+}
