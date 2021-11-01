@@ -4,5 +4,5 @@
     margin: auto;
     font-family: Helvetica Neue, Helvetica, Roboto, Droid Sans, Arial, Verdana, sans-serif;
     color: rgb(48, 41, 41);
-    border: 1px solid red;
+    border-bottom: 1px solid rgba(20,20,20,20%);
 }
