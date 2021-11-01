@@ -14,7 +14,7 @@ const NavList = (props) => {
         (pathAndText) => {
             return (
             <li>
-                <Link to={pathAndText[0]} className={styles.listItem}>{pathAndText[1]}</Link>
+                <Link to={pathAndText[0]} className={styles.listItem} activeClassName={styles.activeListItem}>{pathAndText[1]}</Link>
             </li>
             )
         }

@@ -1,5 +1,6 @@
 import * as React from 'react'
 import Header from './header'
+import HomePage from './homepage'
 
 import {container} from './layout.module.css'
 

@@ -1,0 +1,27 @@
+.portfolio-container {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border: 1px solid black;
+}
+.portfolio-img {
+    height: 250px;
+    border: 1px solid green;
+}
+.portfolio-btns {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 45px;
+}
+.portfolio-btns > button {
+    border: 1px solid lightslategrey;
+    padding: 4px 15px;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.portfolio-btns > button:hover {
+    color: crimson;
+}
