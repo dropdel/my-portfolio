@@ -1,6 +1,5 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import {listContainer, listItem} from './navlist.module.css'
 
 /* 
     Navigation List for use in the header.
@@ -15,12 +14,12 @@ const NavList = (props) => {
         (pathAndText) => {
             return (
             <li>
-                <Link to={pathAndText[0]} className={listItem}>{pathAndText[1]}</Link>
+                <Link to={pathAndText[0]}>{pathAndText[1]}</Link>
             </li>
             )
         }
     )
-    return (<ul className={listContainer}>{listItems}</ul>)
+    return (<ul>{listItems}</ul>)
 }
 
 export default NavList;
