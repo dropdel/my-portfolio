@@ -1,0 +1,11 @@
+.nav {
+    font-size: 0.90rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.list-item {
+    text-decoration: none;
+    color: rgb(48, 41, 41);
+}

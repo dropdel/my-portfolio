@@ -1,6 +1,8 @@
 .container {
-    max-width: 500px;
+    display: flex;
+    width: 100%;
     margin: auto;
-    font-family: sans-serif;
-    color: firebrick;
+    font-family: Helvetica Neue, Helvetica, Roboto, Droid Sans, Arial, Verdana, sans-serif;
+    color: rgb(48, 41, 41);
+    border: 1px solid red;
 }

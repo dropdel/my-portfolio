@@ -1,0 +1,11 @@
+.heading {
+    font-size: 0.90rem;
+    width: 50%;
+}
+.heading-bold {
+    color: black;
+}
+.header {
+    display: flex;
+    width: 100%;
+}
