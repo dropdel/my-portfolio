@@ -10,3 +10,10 @@
     text-decoration: none;
     color: rgb(48, 41, 41);
 }
+
+@media screen and (max-width: 600px) {
+    .nav {
+        width: 100%;
+        padding: 0;
+    }
+}

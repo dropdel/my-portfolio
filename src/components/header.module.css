@@ -8,8 +8,19 @@
 }
 .heading-bold {
     color: black;
+    white-space: pre;
 }
 .header {
     display: flex;
     width: 100%
+}
+
+@media screen and (max-width:600px) {
+    .header {
+        flex-direction: column;
+    }
+    .heading {
+        justify-content: center;
+        width: 100%;
+    }
 }
