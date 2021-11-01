@@ -1,18 +1,18 @@
 import * as React from 'react'
-import {contactForm} from './contact-form.module.css'
+import {contactForm, contactOutline} from './contact-form.module.css'
 const ContactContent = () => {
     return (
         <form className = {contactForm} action="https://formspree.io/f/mvoddlgo" method="POST">
              <label>
-                 Your email:
-                <input type="email" name="_replyto"></input>
+                <p>Email</p>
+                <input type="email" name="_replyto" placeholder="Email"></input>
              </label>
             <label>
-                Your message:
-                <textarea name="message"></textarea>
+                <p>Message</p>
+                <textarea name="message" placeholder="Message"></textarea>
             </label>
             <button type="submit">Send</button>
-            </form>
+        </form>
     )
 }
 
