@@ -1,13 +1,13 @@
-import * as React from "react"
-import Layout from "../components/layout"
-import HomePage from "../components/homepage"
-// markup
-const IndexPage = () => (
-  <main style={{height: '100%'}}>
-    <Layout pageTitle="Home"> 
-    <HomePage></HomePage>
-    </Layout>
-  </main>
-)
+import * as React from 'react';
+import Layout from '../components/layout';
 
-export default IndexPage
+const IndexPage = () => (
+  <main>
+    <Layout
+      pageTitle="Derrick T. | Portfolio"
+      myName="Derrick Thornton"
+    ></Layout>
+  </main>
+);
+
+export default IndexPage;

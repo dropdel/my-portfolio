@@ -1,0 +1,13 @@
+.center-title {
+  text-align: center;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+  width: fit-content;
+  border: 1px solid yellowgreen;
+  width: 100%;
+}

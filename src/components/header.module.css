@@ -1,27 +1,8 @@
-.heading {
-    font-size: 0.90rem;
-    width: 50%;
-    margin: 0;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-}
-.heading-bold {
-    color: black;
-    white-space: pre;
-}
-.header {
-    display: flex;
-    width: 100%;
-    border-bottom: 1px solid rgba(20,20,20,20%);
-}
-
-@media screen and (max-width:600px) {
-    .header {
-        flex-direction: column;
-    }
-    .heading {
-        justify-content: center;
-        width: 100%;
-    }
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid blue;
+  height: 20rem;
 }

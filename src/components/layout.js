@@ -1,15 +1,20 @@
-import * as React from 'react'
-import Header from './header'
-import HomePage from './homepage'
+import * as React from 'react';
+import Nav from './nav';
+import Header from './header';
+import About from './about';
+import Portfolio from './portfolio';
+import Contact from './contact';
+const Layout = ({ pageTitle, myName }) => {
+  return (
+    <main>
+      <title>{pageTitle}</title>
+      <Nav></Nav>
+      <Header myName={myName}></Header>
+      <About></About>
+      <Portfolio></Portfolio>
+      <Contact></Contact>
+    </main>
+  );
+};
 
-import {container} from './layout.module.css'
-
-const Layout = ({pageTitle, children}) => {
-    return(
-        <div className={container}>
-            <Header pageTitle={pageTitle}></Header>
-            {children}
-        </div>
-    )
-}
-export default Layout
+export default Layout;
