@@ -4,6 +4,7 @@ import {
   headerOptions,
   icon,
   headerButton,
+  myName,
 } from './header.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -17,7 +18,7 @@ const Header = ({ myName }) => {
   return (
     <header className={headerContainer} id="home">
       <p>Welcome, my name is</p>
-      <h1>{myName}</h1>
+      <h1 className={myName}>{myName}</h1>
       <p>I develop software, for the web.</p>
       <div className={headerOptions}>
         <button className={headerButton}>View Resume</button>

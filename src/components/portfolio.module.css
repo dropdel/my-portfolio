@@ -20,3 +20,16 @@
   color: white;
   padding: 2rem;
 }
+.portfolio-button {
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  margin: 0 5px 0 5px;
+  background-color: #242424;
+  border-radius: 3px;
+  color: hsl(0, 0%, 100%);
+  transition: background-color 0.3s;
+}
+.portfolio-button:hover {
+  cursor: pointer;
+  background-color: hsla(0, 0%, 100%, 0.4);
+}

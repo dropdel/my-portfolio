@@ -4,6 +4,7 @@ import {
   centerTitle,
   portfolioContainer,
   portfolioArea,
+  portfolioButton,
 } from './portfolio.module.css';
 // Needs to pull data from a project
 // configuration file.
@@ -15,22 +16,22 @@ const Portfolio = () => {
         <figure>
           <img src="" height="250" width="250" />
           <figcaption className={portfolioButtons}>
-            <button>Live</button>
-            <button>Code</button>
+            <button className={portfolioButton}>Live</button>
+            <button className={portfolioButton}>Code</button>
           </figcaption>
         </figure>
         <figure>
           <img src="" height="250" width="250" />
           <figcaption className={portfolioButtons}>
-            <button>Live</button>
-            <button>Code</button>
+            <button className={portfolioButton}>Live</button>
+            <button className={portfolioButton}>Code</button>
           </figcaption>
         </figure>
         <figure>
           <img src="" height="250" width="250" />
           <figcaption className={portfolioButtons}>
-            <button>Live</button>
-            <button>Code</button>
+            <button className={portfolioButton}>Live</button>
+            <button className={portfolioButton}>Code</button>
           </figcaption>
         </figure>
       </div>

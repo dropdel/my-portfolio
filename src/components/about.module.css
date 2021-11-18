@@ -7,9 +7,17 @@
 }
 .about-statement {
   width: 50%;
-  line-height: 1.5rem;
+  line-height: 1.25rem;
   font-weight: bold;
+  text-align: left;
 }
 .about-title {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 400px) {
+  .about-statement {
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
 }
