@@ -1,5 +1,10 @@
 import * as React from 'react';
-import { headerContainer } from './header.module.css';
+import {
+  headerContainer,
+  headerOptions,
+  icon,
+  headerButton,
+} from './header.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   fab,
@@ -14,10 +19,10 @@ const Header = ({ myName }) => {
       <p>Welcome, my name is</p>
       <h1>{myName}</h1>
       <p>I develop software, for the web.</p>
-      <div>
-        <button>View Resume</button>
-        <FontAwesomeIcon icon={faLinkedin} />
-        <FontAwesomeIcon icon={faGithub} />
+      <div className={headerOptions}>
+        <button className={headerButton}>View Resume</button>
+        <FontAwesomeIcon className={icon} icon={faLinkedin} />
+        <FontAwesomeIcon className={icon} icon={faGithub} />
       </div>
     </header>
   );

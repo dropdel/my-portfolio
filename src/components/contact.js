@@ -1,44 +1,50 @@
 import * as React from 'react';
-import { centerTitle, formContainer } from './contact.module.css';
+import {
+  centerTitle,
+  formContainer,
+  contactContainer,
+  submitButton,
+  contactTitle,
+} from './contact.module.css';
 const Contact = () => {
   return (
-    <div id="contact">
+    <div id="contact" className={contactContainer}>
       <h2 className={centerTitle}>Contact Me</h2>
       <form
         className={formContainer}
         action="https://formspree.io/f/mvoddlgo"
         method="POST"
       >
-        <label for="name" class="hide">
-          name
-        </label>
         <input
+          className={submitButton}
           type="text"
           name="name"
           id="name"
           required=""
-          placeholder="name"
+          placeholder="Your Name"
         ></input>
-        <label for="email" class="hide">
-          email
-        </label>
+
         <input
+          className={submitButton}
           type="email"
           name="email"
           id="email"
           required=""
-          placeholder="email"
+          placeholder="Your Email"
         ></input>
-        <label for="message" class="hide">
-          email
-        </label>
         <textarea
+          className={submitButton}
           id="message"
-          placeholder="type your message here"
+          placeholder="Type your message here"
           required=""
           name="message"
         ></textarea>
-        <input id="submit" type="submit" value="Send Message"></input>
+        <input
+          className={submitButton}
+          id="submit"
+          type="submit"
+          value="Send Message"
+        ></input>
       </form>
     </div>
   );

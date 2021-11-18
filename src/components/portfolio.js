@@ -3,12 +3,13 @@ import {
   portfolioButtons,
   centerTitle,
   portfolioContainer,
+  portfolioArea,
 } from './portfolio.module.css';
 // Needs to pull data from a project
 // configuration file.
 const Portfolio = () => {
   return (
-    <div id="portfolio">
+    <div id="portfolio" className={portfolioArea}>
       <h2 className={centerTitle}>Portfolio</h2>
       <div className={portfolioContainer}>
         <figure>

@@ -1,13 +1,30 @@
 .center-title {
+  text-decoration: underline;
   text-align: center;
 }
 .form-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   height: 20rem;
   width: fit-content;
-  border: 1px solid yellowgreen;
   width: 100%;
+}
+.contact-container {
+  background-color: #121212;
+  color: white;
+  padding: 1rem;
+}
+.submit-button {
+  padding: 10px 20px 10px 20px;
+  margin: 0 5px 0 5px;
+  background-color: #242424;
+  border-radius: 3px;
+  color: hsla(0, 0%, 100%, 1);
+  transition: background-color 0.2s;
+}
+.submit-button:hover {
+  cursor: pointer;
+  background-color: hsla(0, 0%, 100%, 0.4);
 }

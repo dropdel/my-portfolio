@@ -3,6 +3,32 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 1px solid blue;
   height: 20rem;
+  background-color: #1b1b1b;
+  color: hsla(0, 0%, 100%, 1);
+}
+.header-options {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 50%;
+  align-items: center;
+}
+.icon {
+  font-size: 1.5rem;
+}
+.icon:hover {
+  cursor: pointer;
+}
+.header-button {
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  margin: 0 5px 0 5px;
+  background-color: #242424;
+  border-radius: 3px;
+  color: hsla(0, 0%, 100%, 1);
+}
+.header-button:hover {
+  cursor: pointer;
+  background-color: hsla(0, 0%, 100%, 0.4);
 }
